@@ -1,0 +1,15 @@
+server:
+   port: 8081
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
+    nonSecurePort: 8081
+
+turbine:
+  aggregator:
+    clusterConfig: BACKEND
+  appConfig: backend

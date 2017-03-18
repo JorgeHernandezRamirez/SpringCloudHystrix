@@ -1,0 +1,17 @@
+Levantar
+- eureka
+- backend
+- turbine
+- hystrixdashboard
+
+#Dashboard
+http://localhost:8082/hystrix
+
+#Seleccionar alguna de las dos .stream
+http://localhost:8080/hystrix.stream
+http://localhost:8081/turbine.stream?cluster=BACKEND
+
+#Cerrar cirtuito
+curl http://localhost:8080/token
+
+https://martinfowler.com/bliki/CircuitBreaker.html
